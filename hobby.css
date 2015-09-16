@@ -1,1 +1,7 @@
-
+ p,h1,h3,h5,ol,ul,li {
+         color: darkgray;
+         font-family: Kefa;
+      }
+      body {
+        background-image:url("http://movies.flabber.nl/wp2013-12/need-for-Speed-had-ook-de-titel-van-een-film-over-drugsverslaving-kunnen-zijn.jpg");
+      }
