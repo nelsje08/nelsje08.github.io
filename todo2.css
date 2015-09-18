@@ -11,16 +11,16 @@
  .done {
          background-color:black;
 }
-.high li {
+.high h2 li {
          color:white;
 }
-.medium li {
+.medium h2 li {
          color:white;
 }
-.low li {
+.low h2 li {
          color:black;
 }
-.done li { 
+.done h2 li { 
          color:cyan;
          text-decoration:line-through;
          height:200px;
@@ -28,7 +28,7 @@
 }
 
 section {
-         border:5px;
+         border:5px solid black;
          height:200px;
          width:300px;
 }
