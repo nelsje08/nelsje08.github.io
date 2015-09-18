@@ -1,9 +1,5 @@
-p,h1,h3,h5,ol,li {
-         color: darkgray;
-         font-family: Kefa;
-      }
-      
- .high {
+
+.high {
          background-color:red;
          color:white;
 }
