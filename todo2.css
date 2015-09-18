@@ -5,19 +5,19 @@ p,h1,h3,h5,ol,li {
       body {
         background-image:url("http://movies.flabber.nl/wp2013-12/need-for-Speed-had-ook-de-titel-van-een-film-over-drugsverslaving-kunnen-zijn.jpg");
       }
-section.high {
+section .high {
          background-color:red;
          color:white;
 }
-section.medium {
+section .medium {
          background-color:orange;
          color:white;
 }
-section.low {
+section .low {
          background-color:gray;
          color:black;
 }
-section.done {
+section .done {
          background-color:black;
          color:cyan;
          text-decoration:line-through;
