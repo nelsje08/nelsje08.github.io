@@ -23,8 +23,9 @@
 .done li { 
          color:cyan;
          text-decoration:line-through;
-         height:200px;
-         width:300px;
+}
+h2 {
+         color:white;
 }
 
 section {
@@ -32,6 +33,7 @@ section {
          height:200px;
          width:300px;
          overflow:auto;
+         float: left;
 }
 section.done {
          display: none;
