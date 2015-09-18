@@ -11,16 +11,16 @@
  .done {
          background-color:black;
 }
-.high>li {
+.high li {
          color:white;
 }
-.medium>li {
+.medium li {
          color:white;
 }
-.low>li {
+.low li {
          color:black;
 }
-.done>li { 
+.done li { 
          color:cyan;
          text-decoration:line-through;
 }
