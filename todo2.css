@@ -3,19 +3,19 @@ p,h1,h3,h5,ol,li {
          font-family: Kefa;
       }
       
-section .high {
+ .high {
          background-color:red;
          color:white;
 }
-section .medium {
+ .medium {
          background-color:orange;
          color:white;
 }
-section .low {
+ .low {
          background-color:gray;
          color:black;
 }
-section .done {
+ .done {
          background-color:black;
          color:cyan;
          text-decoration:line-through;
