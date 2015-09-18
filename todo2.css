@@ -11,16 +11,16 @@
  .done {
          background-color:black;
 }
-.high>h2>li {
+.high li {
          color:white;
 }
-.medium>h2>li {
+.medium li {
          color:white;
 }
-.low>h2>li {
+.low li {
          color:black;
 }
-.done>h2>li { 
+.done li { 
          color:cyan;
          text-decoration:line-through;
          height:200px;
