@@ -23,4 +23,12 @@
 .done li { 
          color:cyan;
          text-decoration:line-through;
+         height:200px;
+         width:300px;
+}
+
+section {
+         border:5px;
+         height:200px;
+         width:300px;
 }
