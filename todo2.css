@@ -20,4 +20,5 @@ section.low {
 section.done {
          background-color:black;
          color:cyan;
+         text-decoration:line-through;
 }
