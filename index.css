@@ -25,6 +25,9 @@ aside {
         width:30%;
          margin-top: 30px; 
          float: right;
+         margin-left:auto;
+        margin-right:auto;
+        display:block;
 }
 footer {
      clear:both ;    
