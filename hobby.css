@@ -5,3 +5,31 @@
       body {
         background-image:url("http://movies.flabber.nl/wp2013-12/need-for-Speed-had-ook-de-titel-van-een-film-over-drugsverslaving-kunnen-zijn.jpg");
       }
+ nav {
+      background-color: #2A2A33;  
+      position: fixed;
+      height: 40px;
+      width: 100%;
+         }
+section {
+         width:50%;
+         margin-top: 50px;
+         float:left;
+         margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+}
+aside {
+        width:50%;
+         margin-top: 50px; 
+         float: right;
+         margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+}
+footer {
+     clear:both ;    
+     background-color: #2A2A33;
+     width: 100%;
+     height: 30px;
+}
