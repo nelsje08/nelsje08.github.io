@@ -37,4 +37,11 @@ footer {
      background-color: #2A2A33;
      width: 100%;
      height: 30px;
+     Margin-top: 0;
+     Margin-bottom: 0;
+}
+a {
+         color:pink;
+}
+
 }
