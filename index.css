@@ -17,6 +17,9 @@ nav {
       width: 100%;
      
          }
+nav li:hover {
+         color: hotpink;
+}
 section {
          width:70%;
          margin-top: 50px;
