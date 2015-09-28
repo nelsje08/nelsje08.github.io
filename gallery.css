@@ -12,7 +12,9 @@ p,h1,h3,h5,ol,ul,li {
       width: 100%;
          }
 section {
-         width:100%
+         width:100%;
          margin-top:50px;
-         
+}
+a {
+ color:Pink;
 }
