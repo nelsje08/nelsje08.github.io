@@ -1,1 +1,32 @@
+.high {
+         color:red;
+}
+ .medium {
+         color:orange;
+}
+ .low {
+         color:yellow;
+}
+ .done {
+         color:black;
+}
+.done li { 
+         text-decoration:line-through;
+}
 
+
+main {
+         background-color:gray;
+         height:200px;
+         width:2000px;
+         overflow:auto;
+         margin-right:auto;
+         margin-left:auto;
+}
+
+section{
+         background-color:gray;
+         width:2000px;
+         margin-right:auto;
+         margin-left:auto;
+}
