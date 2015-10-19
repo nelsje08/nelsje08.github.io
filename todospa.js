@@ -8,6 +8,8 @@ addlistitem = function() {
         
         
          //need to append child checkbox here somewhere?
+         item=document.createElement("input type=checkbox");
+         mymainlist.appendChild(item);
          item=document.createElement("li");
          item.appendChild(value1);
          mymainlist.appendChild(item);
