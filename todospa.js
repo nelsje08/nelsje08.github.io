@@ -20,5 +20,5 @@ addlistitem = function() {
 
 checkfunc = function() {
      //set the class of li to done upon click
-     this.parentNode.addClass("done");
+     this.parentNode.classList.add("done");
 }
