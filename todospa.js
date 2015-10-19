@@ -10,10 +10,10 @@ addlistitem = function() {
         
         
      
-         item=document.createElement("input type=checkbox");
-         item.appendChild(value1);
-         mymainlist.appendChild(item);
+         input=document.createElement("input");
+         input.type = "checkbox";
          item=document.createElement("li");
+         mymainlist.appendChild(input);
          item.appendChild(value1);
          mymainlist.appendChild(item);
    }
