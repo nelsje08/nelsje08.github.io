@@ -7,8 +7,9 @@ addlistitem = function() {
         //need to create new querySelector to get dropdown input value and assign className to list item.... 
         
         
-         //need to append child checkbox here somewhere?
+     
          item=document.createElement("input type=checkbox");
+         item.appendChild(value1);
          mymainlist.appendChild(item);
          item=document.createElement("li");
          item.appendChild(value1);
