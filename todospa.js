@@ -1,6 +1,6 @@
 
 addlistitem = function() {
-     var myinput, mymainlist, value1, dropdowninput, value2;
+     var myinput, mymainlist, value1, dropdowninput;
          myinput = document.querySelector('#newtask');
          value1 = document.createTextNode(myinput.value);
          mymainlist = document.querySelector('#tasklist');
@@ -12,7 +12,7 @@ addlistitem = function() {
         
      
          input=document.createElement("input");
-         input.type = "checkbox";
+         input.type="checkbox";
          item=document.createElement("li");
          mymainlist.appendChild(input);
          item.appendChild(value1);
