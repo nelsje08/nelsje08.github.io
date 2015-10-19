@@ -6,7 +6,7 @@ addlistitem = function() {
          mymainlist = document.querySelector('#tasklist');
         
          
-         item=document.createElement('#checkbox');
+         item=document.createElement("#checkbox");
          item.appendChild(value1);
          mymainlist.appendChild(item)
          item=document.createElement("li");
