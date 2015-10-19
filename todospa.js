@@ -5,6 +5,7 @@ addlistitem = function() {
          value1 = document.createTextNode(myinput.value);
          mymainlist = document.querySelector('#tasklist');
          dropdowninput = document.querySelector("#priority");
+         dropdowninput.className(high)
          dropdowninput.value = value1
         // need to create new querySelector to get dropdown input value and assign className to list item.... 
 }   
