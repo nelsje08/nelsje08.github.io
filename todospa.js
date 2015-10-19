@@ -9,8 +9,8 @@ addlistitem = function() {
          item=document.createElement('#checkbox');
          item.appendChild(value1);
          mymainlist.appendChild(item)
-         item2=document.createElement("li");
-         item2.appendChild(value1);
-         mymainlist.appendChild(item2);
+         item=document.createElement("li");
+         item.appendChild(value1);
+         mymainlist.appendChild(item);
    }
 
