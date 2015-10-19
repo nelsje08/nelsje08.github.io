@@ -4,8 +4,8 @@ addlistitem = function() {
          myinput = document.querySelector('#newtask');
          value1 = document.createTextNode(myinput.value);
          mymainlist = document.querySelector('#tasklist');
-        // dropdowninput = document.querySelector("#priority");
-        // dropdowninput.value
+         dropdowninput = document.querySelector("#priority");
+         dropdowninput.value = value1
         // need to create new querySelector to get dropdown input value and assign className to list item.... 
 }   
      
@@ -15,10 +15,9 @@ addlistitem = function() {
          item.appendChild(cb);
          item.appendChild(value1);
          mymainlist.appendChild(item);
-   
-         cb.onclick = checkfunc;
 
 checkfunc = function() {
      //set the class of li to done upon click
      this.parentNode.classList.add("done");
 }
+        cb.onclick = checkfunc;
