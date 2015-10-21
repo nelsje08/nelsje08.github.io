@@ -18,6 +18,9 @@
          text-align:center;
 }
 
+#tasklist {
+         list-style-type:none;
+}
 
 main {
          background-color:gray;
