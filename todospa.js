@@ -14,6 +14,7 @@ addlistitem = function() {
          item.appendChild(cb);
          item.appendChild(value1);
          mymainlist.appendChild(item);
+         alert = "is this working";
 }
 
 checkfunc = function() {
