@@ -5,14 +5,19 @@ addlistitem = function() {
          mymainlist = document.querySelector('#tasklist');
          
          dropdowninput = document.querySelector("#priority");
-         myLi.clasList.add(dropdowninput.value);
+         myLi.classList.add(dropdowninput.value);
   
          cb=document.createElement("INPUT");
+         alert = "is this working";
          cb.type="checkbox";
+         alert = "is this working";
          cb.onclick = checkfunc;
+         alert = "is this working";
          myLi=document.createElement("li");
          myLi.appendChild(cb);
+         alert = "is this working";
          myLi.appendChild(value1);
+         alert = "is this working";
          mymainlist.appendChild(myLi);
          alert = "is this working";
 }
