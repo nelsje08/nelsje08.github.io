@@ -17,8 +17,8 @@ addlistitem = function() {
          alert = "is this working";
 }
 
-checkfunc = function() {
+//checkfunc = function() {
      //set the class of li to done upon click
-     this.parentNode.classList.add("done");
-}
-        cb.onclick = checkfunc;
+     //this.parentNode.classList.add("done");
+//}
+        //cb.onclick = checkfunc;
