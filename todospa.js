@@ -6,18 +6,18 @@ addlistitem = function() {
          mymainlist = document.querySelector('#tasklist');
          
          dropdowninput = document.querySelector("#priority");
-         value2 = document.style(dropdowninput.value);
+         item.className = dropdowninput.value
          //dropdowninput.className = value2;
          //dropdowninput.value = value1;
         // need to create new querySelector to get dropdown input value and assign className to list item.... 
-}   
-     
+  
          cb=document.createElement("input");
          cb.type="checkbox";
          item=document.createElement("li");
          item.appendChild(cb);
          item.appendChild(value1);
          mymainlist.appendChild(item);
+}
 
 checkfunc = function() {
      //set the class of li to done upon click
