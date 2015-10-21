@@ -3,9 +3,6 @@ addlistitem = function() {
          myinput = document.querySelector('#newtask');
          value1 = document.createTextNode(myinput.value);
          mymainlist = document.querySelector('#tasklist');
-         
-         dropdowninput = document.querySelector("#priority");
-         myLi.classList.add(dropdowninput.value);
   
          cb=document.createElement("INPUT");
                   alert = "is this working";
@@ -21,6 +18,9 @@ addlistitem = function() {
                   alert = "is this working";
          mymainlist.appendChild(myLi);
                   alert = "is this working";
+                  
+         dropdowninput = document.querySelector("#priority");
+         myLi.classList.add(dropdowninput.value);
 }
 
 checkfunc = function() {
