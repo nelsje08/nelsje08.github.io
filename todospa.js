@@ -1,24 +1,28 @@
 
 addlistitem = function() {
-     var myinput, mymainlist, value1, dropdowninput, cb, item;
          myinput = document.querySelector('#newtask');
          value1 = document.createTextNode(myinput.value);
          mymainlist = document.querySelector('#tasklist');
          
          dropdowninput = document.querySelector("#priority");
-         item.className = dropdowninput.value;
+         myLi.clasList.add(dropdowninput.value);
   
-         cb=document.createElement("input");
+         cb=document.createElement("INPUT");
          cb.type="checkbox";
-         item=document.createElement("li");
-         item.appendChild(cb);
-         item.appendChild(value1);
-         mymainlist.appendChild(item);
+         cb.onclick = checkfunc;
+         myLi=document.createElement("li");
+         myLi.appendChild(cb);
+         myLi.appendChild(value1);
+         mymainlist.appendChild(myLi);
          alert = "is this working";
 }
 
-//checkfunc = function() {
-     //set the class of li to done upon click
-     //this.parentNode.classList.add("done");
-//}
-        //cb.onclick = checkfunc;
+checkfunc = function() {
+     if (this.checked) {
+     this.parentNode.classList.add("done");
+     }
+     else {
+     this.parentNode.classList.remove("done")
+     }
+}
+        
