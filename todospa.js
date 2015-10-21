@@ -30,5 +30,11 @@ checkfunc = function() {
      else {
      this.parentNode.classList.remove("done")
      }
+     localSave("tasklist")
 }
+
+window.onload = function() {
+         restoreList(tasklist,checkfunc);
+}
+
         
