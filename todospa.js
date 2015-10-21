@@ -1,6 +1,6 @@
 
 addlistitem = function() {
-     var myinput, mymainlist, value1, dropdowninput, value2;
+     var myinput, mymainlist, value1, dropdowninput, cb, item;
          myinput = document.querySelector('#newtask');
          value1 = document.createTextNode(myinput.value);
          mymainlist = document.querySelector('#tasklist');
