@@ -34,7 +34,7 @@ checkfunc = function() {
 }
 
 window.onload = function() {
-         restoreList(tasklist,checkfunc);
+         restoreList("tasklist",checkfunc);
 }
 
         
