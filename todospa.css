@@ -9,10 +9,9 @@
 }
  .done {
          color:black;
-}
-.done li { 
          text-decoration:line-through;
 }
+
 
 #title {
          text-align:center;
