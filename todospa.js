@@ -20,6 +20,8 @@ addlistitem = function() {
          
          dropdowninput = document.querySelector("#priority");
          myLi.classList.add(dropdowninput.value);
+         
+         localSave("tasklist");
                 
 }
 
@@ -28,9 +30,9 @@ checkfunc = function() {
      this.parentNode.classList.add("done");
      }
      else {
-     this.parentNode.classList.remove("done")
+     this.parentNode.classList.remove("done");
      }
-     localSave("tasklist")
+     localSave("tasklist");
 }
 
 window.onload = function() {
